@@ -27,11 +27,14 @@ README.md
 
 ## Requirements
 
+For the project to work, the following model checkpoint must be downloaded and placed in the main root directory of the project: https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+
 - Python 3.9–3.11
 - (Optional) NVIDIA GPU + CUDA for faster inference
 - PyTorch, Transformers, OpenCV, scikit-image, etc. (installed via `requirements.txt`)
 
 > If you need a specific CUDA build of PyTorch, install it first (per the PyTorch website), then run `pip install -r requirements.txt`.
+
 
 Install deps:
 
